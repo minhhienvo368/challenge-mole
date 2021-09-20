@@ -8,3 +8,4 @@ __pycache__/
 .vscode/
 # Folders to ignore
 Data/
+base_dir/
