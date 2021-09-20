@@ -1,0 +1,8 @@
+# jupyter
+.ipynb_checkpoints/
+# pycharm folder
+.idea/
+# python config
+__pycache__/
+# vscode folder
+.vscode/
