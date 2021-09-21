@@ -115,12 +115,15 @@ subset_not_cancer = images_not_cancer[:1000]
 
 # Make a numpy array for each of the class labels (one hot encoded).
 labels_1 = np.tile([1, 0], (images_cancer.shape[0], 1))
+subset_labels_1 = np.tile([1, 0], (subset_cancer.shape[0], 1))
 labels_0 = np.tile([0, 1], (images_not_cancer.shape[0], 1))
+subset_labels_0 = np.tile([0, 1], (subset_not_cancer.shape[0], 1))
 
 # Concatenation
 X = np.concatenate([images_cancer, images_not_cancer])
 X_subset = np.concatenate([subset_cancer, subset_not_cancer])
 y = np.concatenate([labels_1, labels_0])
+y_subset = np.concatenate([subset_labels_1, subset_labels_0])
 
 #------------------------Splitting Data----------------------------------
 
@@ -185,3 +188,11 @@ history = new_model.fit(train_generator,
                         batch_size=8,
                         validation_data=validation_generator,
                         callbacks=[early_stop])
+
+metrics = pd.DataFrame(new_model.history.history)
+
+metrics[['loss', 'val_loss']].plot()
+plt.show()
+
+metrics[['accuracy', 'val_accuracy']].plot()
+plt.show()
