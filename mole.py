@@ -1,23 +1,32 @@
 import os
 import pandas as pd
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
 
 df_meta = pd.read_csv("Data/HAM10000_metadata.csv")
 print(df_meta)
 df_meta.describe()
 df_meta.info()
-
-base_dir = 'Data'
+ 
+img_folder_1 = os.path.abspath("./Data/HAM10000_images_part_1")
+img_folder_2 = os.path.abspath("./Data/HAM10000_images_part_2")
+folder_1_list = os.listdir(img_folder_1)
+folder_2_list = os.listdir(img_folder_2)
+img_path = os.path.join(img_folder_1, folder_1_list[0])
+img = mpimg.imread(img_path)
+plt.imshow(img)
+plt.show()
 image_class = df_meta['dx'].unique().tolist()
 
-def cancer_or_not(dx_value: str) -> str:
-    if dx_value in ['bcc', 'mel']:
-        output = 'cancer'
-    else:
-        output = 'not_cancer'
-    return output
+# def cancer_or_not(dx_value: str) -> str:
+#     if dx_value in ['bcc', 'mel']:
+#         output = 'cancer'
+#     else:
+#         output = 'not_cancer'
+#     return output
 
-df_meta['labels'] = df_meta['dx'].apply(cancer_or_not)
-print(df_meta.head())
+# df_meta['labels'] = df_meta['dx'].apply(cancer_or_not)
+# print(df_meta.head())
 
 y = df_meta['dx']
 X = df_meta.drop('dx', axis=1)
