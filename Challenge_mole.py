@@ -293,6 +293,6 @@ print(y_test[200])
 
 from tensorflow.keras.models import load_model
 my_model = load_model('Mobilenet_model', compile=False)
-sample = X_test[100]
+sample = X_test[888]
 print(np.argmax(my_model.predict(sample.reshape(1,224,224,3)), axis=-1)[0])
-print(y_test[100])
+print(y_test[888])
