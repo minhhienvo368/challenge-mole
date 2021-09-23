@@ -77,7 +77,7 @@ new_model.summary()
 new_model.compile(optimizer='adam',
                   loss='binary_crossentropy',
                   metrics=['accuracy'])
-
+# Stop the model training in case of overfitting
 early_stop = EarlyStopping(monitor='val_loss', patience=3)
 
 # Training

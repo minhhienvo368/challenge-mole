@@ -9,8 +9,10 @@ import os
 import numpy as np
 import streamlit as st
 from PIL import Image
-from mole_preprocessing import image_preparation
+# from mole_preprocessing import image_preparation
 from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 # creating two containers
 header = st.container()
@@ -22,6 +24,22 @@ cwd = os.getcwd()
 def load_image(image_file):
     img = Image.open(image_file)
     return img
+
+def image_preparation(img_path: str, img_size: tuple) -> np.ndarray:
+    
+    # Load your image
+    img = image.load_img(img_path, target_size=img_size)
+    
+    # Convert your image pixels to a numpy array of values. 
+    img = image.img_to_array(img)
+    
+    # reshape your image dimensions.
+    img = img.reshape(1, img.shape[0], img.shape[1], img.shape[2])
+    # img = np.expand_dims(img, axis=0)
+    
+    # preprocess your image with preprocess_input
+    prepared_img = preprocess_input(img)
+    return prepared_img
 
 def delete_images():
     for file in os.listdir(cwd):

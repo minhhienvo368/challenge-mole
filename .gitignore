@@ -10,3 +10,6 @@ __pycache__/
 Data/
 Deploy/
 base_dir/
+# Files to ignore
+*.html
+*.ipynb 
