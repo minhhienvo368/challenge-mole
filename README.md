@@ -4,7 +4,20 @@
 ### Skin Cancer Definition, Types and causes: 
 - Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening. 
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
-- The images used for this CNN excercise cover two cancerous types; basal and Melanoma, together with another 5 benign types;
+- The images used for this CNN excercise cover two cancerous types; 
+ |Bcc	| Basal cell carcinoma|
+ |Mel	| Melanoma|
+
+, together with another 5 benign types;
+    - Akiec	Actinic keratoses and intraepithelial carcinoma
+
+Bkl	Benign lesions of the keratosis
+Df	Dermatofibroma
+
+Nv	Melanocytic nevi
+Vasc	Vascular lesions
+![image](https://user-images.githubusercontent.com/84380899/134640083-20437afc-cde8-4824-9602-413b5e348837.png)
+
 
 ## Mission objectives
 
