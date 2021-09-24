@@ -29,7 +29,8 @@ https://melanomia-detection.herokuapp.com/
 
 ## Visuals: 
  
-![image](https://user-images.githubusercontent.com/84380899/134654863-54280e30-a12a-4fe6-937b-87ec088f8624.png)
+![Snapshot of the App](https://user-images.githubusercontent.com/84380899/134656153-df62d463-dcf0-4d06-a6bc-c3ac3ea3d78c.png)
+
 
 ## Installation on local machine
 
