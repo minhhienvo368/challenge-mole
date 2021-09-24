@@ -2,19 +2,19 @@
 
 ## Description
 ### Skin Cancer Definition and Types: 
-- Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening. 
+- Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening, ecxept for Melanoma which is lethal.
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
-- The images used for this CNN excercise cover two cancerous types;bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
+- The images used for this CNN excercise cover two cancerous types; bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
 
- | Abbreviation          | Full name                              |
- |-----------------------|----------------------------------------|
- |Bcc | Basal cell carcinoma |
- |Mel| Melanoma |
- |Akiec| Actinic keratoses and intraepithelial carcinoma | 
- |Bkl | Benign lesions of the keratosis |
- |Df | Dermatofibroma |
- |Nv | Melanocytic nevi|
- |Vasc| Vascular lesions |
+     | Abbreviation          | Full name                              |
+     |-----------------------|----------------------------------------|
+     |Bcc | Basal cell carcinoma |
+     |Mel| Melanoma |
+     |Akiec| Actinic keratoses and intraepithelial carcinoma | 
+     |Bkl | Benign lesions of the keratosis |
+     |Df | Dermatofibroma |
+     |Nv | Melanocytic nevi|
+     |Vasc| Vascular lesions |
  
 
 ### Project mission:
@@ -65,14 +65,14 @@ $ python app.py
 * tensorflow-cpu==2.5.0
 
 # Usage and links
-| File                | Description                                                    |
-|---------------------|----------------------------------------------------------------|
-| mole_detection.py         | Main python code|
-| mole_model.py         | Python code with Neural network model|
-| mole_preprocessing.py        | Python code for visuals (dataset and results)|
-| visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
-| NoCan App           | https://github.com/mdifils/cancer-detector|
-| NoCan App Presentation           | Powerpoint presentation 
+   | File                | Description                                                    |
+   |---------------------|----------------------------------------------------------------|
+   | mole_detection.py         | Main python code|
+   | mole_model.py         | Python code with Neural network model|
+   | mole_preprocessing.py        | Python code for visuals (dataset and results)|
+   | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
+   | NoCan App           | https://github.com/mdifils/cancer-detector|
+   | NoCan App Presentation           | Powerpoint presentation 
 
 # The Dataset
 
@@ -82,12 +82,12 @@ It was created by Tschandl et al. 2018.
 
 
 # Contributors
-| Name                  | Github                                 |
-|-----------------------|----------------------------------------|
-|Amaury van Kesteren | https://github.com/AmauryvanKeste | 
-|Heba Elabrak | https://github.com/Helabrak |
-|Michel OMBESSA | https://github.com/mdifils |
-|Minh Hien Vo| https://github.com/minhhienvo368 |
+   | Name                  | Github                                 |
+   |-----------------------|----------------------------------------|
+   |Amaury van Kesteren | https://github.com/AmauryvanKeste | 
+   |Heba Elabrak | https://github.com/Helabrak |
+   |Michel OMBESSA | https://github.com/mdifils |
+   |Minh Hien Vo| https://github.com/minhhienvo368 |
 
 # Timeline
 20-09-2021 to 24-09-2021
