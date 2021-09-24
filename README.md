@@ -6,20 +6,15 @@
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
 - The images used for this CNN excercise cover two cancerous types;bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
 
-    | Abbreviation          | Full name                              |
-    |-----------------------|----------------------------------------|
-    |Bcc | Basal cell carcinoma |
-    |Mel| Melanoma |
-    |Akiec| Actinic keratoses and intraepithelial carcinoma | 
-    |Bkl | Benign lesions of the keratosis |
-    |Df | Dermatofibroma |
-    |Nv | Melanocytic nevi|
-    |Vasc| Vascular lesions |
-
-## Mission objectives
-
-- Be able to apply a CNN to diagnose the mole images.
-- Be able to preprocess data for computer vision and deploy an app that could predict whether the image detected/loaded is for a cancerous or benign mole
+ | Abbreviation          | Full name                              |
+ |-----------------------|----------------------------------------|
+ |Bcc | Basal cell carcinoma |
+ |Mel| Melanoma |
+ |Akiec| Actinic keratoses and intraepithelial carcinoma | 
+ |Bkl | Benign lesions of the keratosis |
+ |Df | Dermatofibroma |
+ |Nv | Melanocytic nevi|
+ |Vasc| Vascular lesions |
 
 # Installation
 
@@ -66,7 +61,12 @@ It was created by Tschandl et al. 2018.
 
 
 # About this app
+This app has build a model that applied a CNN and Keras to diagnose the mole images.
 
+Before building the model, some steps has completed:
+** Step 1. Preprocessing data for computer vision **
+
+** We have deployed an app that could predict whether the image detected/loaded is cancerous or benign
 
 # Website
 https://melanomia-detection.herokuapp.com/
