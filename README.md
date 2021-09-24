@@ -5,8 +5,8 @@
 
 ## Mission objectives
 
--Be able to apply a CNN in a real context
--Be able to preprocess data for computer vision
+- Be able to apply a CNN in a real context
+- Be able to preprocess data for computer vision
 
 # Installation
 
