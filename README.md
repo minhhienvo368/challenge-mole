@@ -1,4 +1,4 @@
-# SKIN CANCER DETECTION APP
+# SKIN CANCER DETECTION USING CNN AND KERAS PROJECT
 
 ## Description
 ### Skin Cancer Definition and Types: 
@@ -16,20 +16,25 @@
  |Nv | Melanocytic nevi|
  |Vasc| Vascular lesions |
 
-# Installation
+# Installation on local machine
 
-On Windows
-virtualenv venv 
-\venv\scripts\activate
+**On Windows*
 
-Or if using linux
-python3 -m venv myvenv
-source myvenv/bin/activate
+$ virtualenv venv 
+$ \venv\scripts\activate
 
-Install the requirements:
-pip install -r requirements.txt
-Run the app:
-python app.py
+**Or if using Linux/ MACOS**
+
+$ python3 -m venv myvenv
+$ source myvenv/bin/activate
+
+**Install the requirements:**
+
+$ pip install -r requirements.txt
+
+**Run the app:**
+
+$ python app.py
 
 ## Python version
 * Python 3.8
@@ -60,15 +65,16 @@ The dataset used for the model can be found at  https://www.kaggle.com/kmader/sk
 It was created by Tschandl et al. 2018. 
 
 
-# About this app
-This app has build a model that applied a CNN and Keras to diagnose the mole images.
+# Project summary
+
+This project is about to create an app that use a CNN and Keras to diagnose the mole images.
 
 Before building the model, some steps has completed:
 
-** Step 1. Preprocessing data for computer vision **
+**Step 1. Preprocessing data for computer vision **
 
 
-** We have deployed an app that could predict whether the image detected/loaded is cancerous or benign
+**We have deployed an app that could predict whether the image detected/loaded is cancerous or benign
 
 
 # Website
