@@ -26,7 +26,6 @@
 ### Website
 https://melanomia-detection.herokuapp.com/
 
-
 ## Visuals: 
  
 ![Snapshot of the App](https://user-images.githubusercontent.com/84380899/134656153-df62d463-dcf0-4d06-a6bc-c3ac3ea3d78c.png)
