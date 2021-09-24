@@ -21,7 +21,7 @@
 - The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
 
 
-## NocCan App: 
+## NocCan App 
 
 ### Website
 https://melanomia-detection.herokuapp.com/
@@ -64,7 +64,8 @@ $ python app.py
 * streamlit==0.88.0
 * tensorflow-cpu==2.5.0
 
-# Usage and links
+## Usage and links
+
    | File                | Description                                                    |
    |---------------------|----------------------------------------------------------------|
    | mole_detection.py         | Main python code|
@@ -74,14 +75,14 @@ $ python app.py
    | NoCan App           | https://github.com/mdifils/cancer-detector|
    | NoCan App Presentation           | Powerpoint presentation 
 
-# The Dataset
+## The Dataset
 
 The dataset used for the model can be found at  https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 
 It was created by Tschandl et al. 2018. 
 
 
 
-# Contributors
+## Contributors
    | Name                  | Github                                 |
    |-----------------------|----------------------------------------|
    |Amaury van Kesteren | https://github.com/AmauryvanKeste | 
@@ -89,5 +90,5 @@ It was created by Tschandl et al. 2018.
    |Michel OMBESSA | https://github.com/mdifils |
    |Minh Hien Vo| https://github.com/minhhienvo368 |
 
-# Timeline
+## Timeline
 20-09-2021 to 24-09-2021
