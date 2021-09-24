@@ -48,10 +48,10 @@ def delete_images():
         elif file.endswith('.png'):
             os.remove(file)
 
-model = load_model('Mobilenet_model', compile=False)
+model = load_model('melanomia.h5', compile=False)
 
 with header:
-    st.title("Melona Detection")
+    st.title("Melanomia Detection")
     # grab the uploaded image
     image_file = st.file_uploader("Upload Images", type=["png","jpg","jpeg"])
 
@@ -65,12 +65,14 @@ if image_file:
     sample = image_preparation(image_file.name, (224,224))
     # predict
     prediction = model.predict(sample.reshape(1,224,224,3))
-    result = np.argmax(prediction, axis=-1)[0]
+    pred = prediction.tolist()[0][0]
     # conclusion
-    if result == 1:
+    if pred > 0.5:
         label = "Bad news, this is a cancerous skin lesion."
+        prob = f"probability = {pred}"
     else:
-        label = "Good news, this lesion is benign."
+        label = "Good news, this lesion is probably benign."
+        prob = f"probability = {1 - pred}"
     
     with main:
         st.header("Result")
@@ -84,3 +86,4 @@ if image_file:
         col2.success("Prediction")
         # write the conclusion about the prediction
         col2.text(label)
+        col2.text(prob)
