@@ -1,7 +1,10 @@
 # SKIN CANCER DETECTION APP
 
 ## Description
-
+### Skin Cancer Definition, Types and causes: 
+- Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening. 
+- There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
+- The images used for this CNN excercise cover two cancerous types; basal and Melanoma, together with another 5 benign types;
 
 ## Mission objectives
 
