@@ -17,7 +17,7 @@
  |Vasc| Vascular lesions |
  
 
-### project mission:
+### Project mission:
 - The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
 
 
@@ -29,23 +29,19 @@ https://melanomia-detection.herokuapp.com/
 
 ## Visuals: 
  
- | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
-
+![image](https://user-images.githubusercontent.com/84380899/134654863-54280e30-a12a-4fe6-937b-87ec088f8624.png)
 
 ## Installation on local machine
 
 **On Windows*
-
 $ virtualenv venv 
 $ \venv\scripts\activate
 
 **Or if using Linux/ MACOS**
-
 $ python3 -m venv myvenv
 $ source myvenv/bin/activate
 
 **Install the requirements:**
-
 $ pip install -r requirements.txt
 
 **Run the app:**
