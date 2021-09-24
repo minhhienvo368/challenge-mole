@@ -16,19 +16,23 @@
  |Nv | Melanocytic nevi|
  |Vasc| Vascular lesions |
  
- ### project mission:
+
+### project mission:
 - The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
+
 
 ## NocCan App: 
 
 ### Website
 https://melanomia-detection.herokuapp.com/
 
+
 ## Visuals: 
  
  | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
 
-# Installation on local machine
+
+## Installation on local machine
 
 **On Windows*
 
@@ -45,22 +49,25 @@ $ source myvenv/bin/activate
 $ pip install -r requirements.txt
 
 **Run the app:**
-
 $ python app.py
 
-## Python version
+### Python version
 * Python 3.9
 
-## Packages used
+### Packages used
 * os
-* pandas
-* numpy
-* matplotlib.pyplot
+* numpy==1.19.5
+* pandas==1.3.3
+* matplotlib.pyplot==3.4.2
 * itertools
 * seaborn
-* PIL
 * sklearn
 * tensorflow.keras
+* Keras==2.4.3
+* Pillow==8.3.1
+* scikit-learn==0.24.2
+* streamlit==0.88.0
+* tensorflow-cpu==2.5.0
 
 # Usage and links
 | File                | Description                                                    |
@@ -69,16 +76,15 @@ $ python app.py
 | mole_model.py         | Python code with Neural network model|
 | mole_preprocessing.py        | Python code for visuals (dataset and results)|
 | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
-| Detection App           | https://github.com/mdifils/cancer-detector|
+| NoCanApp           | https://github.com/mdifils/cancer-detector|
+| NoCanApp Presentation           | Powerpoint presentation 
 
 # The Dataset
 
 The dataset used for the model can be found at  https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 
 It was created by Tschandl et al. 2018. 
 
-Before building the model, some steps has completed:
 
-**Step 1. Preprocessing data for computer vision**
 
 # Contributors
 | Name                  | Github                                 |
