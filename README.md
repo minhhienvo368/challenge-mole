@@ -64,9 +64,12 @@ It was created by Tschandl et al. 2018.
 This app has build a model that applied a CNN and Keras to diagnose the mole images.
 
 Before building the model, some steps has completed:
+
 ** Step 1. Preprocessing data for computer vision **
 
+
 ** We have deployed an app that could predict whether the image detected/loaded is cancerous or benign
+
 
 # Website
 https://melanomia-detection.herokuapp.com/
