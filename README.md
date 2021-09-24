@@ -73,7 +73,7 @@ $ python app.py
    | mole_preprocessing.py        | Python code for visuals (dataset and results)|
    | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
    | NoCan App           | https://github.com/mdifils/cancer-detector|
-   | NoCan App Presentation           | Powerpoint presentation 
+   | NoCan App Presentation           | Powerpoint presentation: https://docs.google.com/presentation/d/1IPsoEJlo0RAcnG8BPl25Rd-0FjspsNQpU9mjD7WalmM/edit#slide=id.g1f87997393_0_864 
 
 ## The Dataset
 
