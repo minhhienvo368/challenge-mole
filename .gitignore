@@ -1,0 +1,22 @@
+# jupyter
+.ipynb_checkpoints/
+# pycharm folder
+.idea/
+# python config
+__pycache__/
+# vscode folder
+.vscode/
+# Folders to ignore
+Data/
+Deploy/
+base_dir/
+cancer/
+not_cancer/
+# Files to ignore
+*.html
+*.ipynb 
+Challenge_mole.py 
+cnn_mnist.py 
+mole_challenge.py 
+mole_preprocessing.py 
+mole_model.py
