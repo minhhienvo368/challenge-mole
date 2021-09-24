@@ -67,14 +67,12 @@ It was created by Tschandl et al. 2018.
 
 # Project summary
 
-This project is about to create an app that use a CNN and Keras to diagnose the mole images.
+This project is about to create an app that use a CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
 
 Before building the model, some steps has completed:
 
-**Step 1. Preprocessing data for computer vision **
+**Step 1. Preprocessing data for computer vision**
 
-
-**We have deployed an app that could predict whether the image detected/loaded is cancerous or benign
 
 
 # Website
