@@ -10,6 +10,8 @@ __pycache__/
 Data/
 Deploy/
 base_dir/
+cancer/
+not_cancer/
 # Files to ignore
 *.html
 *.ipynb 

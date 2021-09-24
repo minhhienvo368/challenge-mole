@@ -127,12 +127,12 @@ def create_target_variable(images_cancer: np.ndarray,
                              images_not_cancer: np.ndarray,
                              subset_size=None) -> np.ndarray:
     if subset_size:
-        subset_labels_1 = np.tile([1, 0], (images_cancer[:subset_size].shape[0], 1))
-        subset_labels_0 = np.tile([0, 1], (images_not_cancer[:subset_size].shape[0], 1))
+        subset_labels_1 = np.tile(1, (images_cancer[:subset_size].shape[0], 1))
+        subset_labels_0 = np.tile(0, (images_not_cancer[:subset_size].shape[0], 1))
         y = np.concatenate([subset_labels_1, subset_labels_0])
     else:
-        labels_1 = np.tile([1, 0], (images_cancer.shape[0], 1))
-        labels_0 = np.tile([0, 1], (images_not_cancer.shape[0], 1))
+        labels_1 = np.tile(1, (images_cancer.shape[0], 1))
+        labels_0 = np.tile(0, (images_not_cancer.shape[0], 1))
         y = np.concatenate([labels_1, labels_0])
     return y
 
@@ -156,6 +156,9 @@ def augmenting_data(X_train: np.ndarray, X_val: np.ndarray,
     validation_generator = validation_datagen.flow(X_val, y_val, 
                                                  batch_size=datagen_batch_size)
     return train_generator, validation_generator
+
+def oversampling():
+    pass
 
 def plot_history(history : tensorflow.keras.callbacks.History):
     """ This helper function takes the tensorflow.python.keras.callbacks.

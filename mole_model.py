@@ -67,7 +67,7 @@ new_model.add(model)
 new_model.add(Flatten())
 new_model.add(Dense(64, activation='relu'))
 new_model.add(Dropout(0.5))
-new_model.add(Dense(2, activation='sigmoid'))
+new_model.add(Dense(1, activation='sigmoid'))
 
 # Summarize.
 new_model.summary()
@@ -81,23 +81,23 @@ new_model.compile(optimizer='adam',
 early_stop = EarlyStopping(monitor='val_loss', patience=3)
 
 # Training
-history = new_model.fit(train_generator,
+history = new_model.fit(X_train, y_train,
                         epochs=10, 
-                        batch_size=8,
-                        validation_data=validation_generator,
+                        batch_size=64,
+                        validation_data=(X_val, y_val),
                         callbacks=[early_stop])
 # Accuracy and loss plots
 plot_history(history)
 
 # saving the model
-new_model.save('Mobilenet_model')
+new_model.save('mobilenet.h5')
 
 # Model Evaluation
-new_model.evaluate(X_test, y_test)
+new_model.evaluate(X_test, y_test, verbose=2)
 
 # Prediction
 preds = np.argmax(new_model.predict(X_test), axis=-1)
 
-sample = X_test[200]
-print(np.argmax(new_model.predict(sample.reshape(1,224,224,3)), axis=-1)[0])
-print(y_test[200])
+sample = X_test[:50]
+print(np.argmax(new_model.predict(sample.reshape(50,224,224,3)), axis=-1))
+print(y_test[:50])
