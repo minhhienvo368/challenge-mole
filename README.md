@@ -15,6 +15,18 @@
  |Df | Dermatofibroma |
  |Nv | Melanocytic nevi|
  |Vasc| Vascular lesions |
+ 
+ ### project mission:
+- The main mission of this project was to create an app using CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
+
+## NocCan App: 
+
+# Website
+https://melanomia-detection.herokuapp.com/
+
+## Visuals: 
+ 
+ | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
 
 # Installation on local machine
 
@@ -37,7 +49,7 @@ $ pip install -r requirements.txt
 $ python app.py
 
 ## Python version
-* Python 3.8
+* Python 3.9
 
 ## Packages used
 * os
@@ -64,19 +76,9 @@ $ python app.py
 The dataset used for the model can be found at  https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000 
 It was created by Tschandl et al. 2018. 
 
-
-# Project summary
-
-This project is about to create an app that use a CNN and Keras to diagnose the mole images. The app could predict whether the image detected/loaded is cancerous or benign
-
 Before building the model, some steps has completed:
 
 **Step 1. Preprocessing data for computer vision**
-
-
-
-# Website
-https://melanomia-detection.herokuapp.com/
 
 # Contributors
 | Name                  | Github                                 |
