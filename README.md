@@ -5,7 +5,7 @@
 - Most skin cancers are locally destructive cancerous (malignant) growth of the skin. They originate from the cells of the epidermis, the superficial layer of the skin and the majority of them rarely spread to other parts of the body and become life-threatening. 
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
 - The images used for this CNN excercise cover two cancerous types;bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
-	| Name                  | Github                                 |
+| Abbreviation          | Full name                              |
 |-----------------------|----------------------------------------|
 |Bcc | Basal cell carcinoma |
 |Mel| Melanoma |
