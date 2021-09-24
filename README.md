@@ -19,7 +19,7 @@
 ## Mission objectives
 
 - Be able to apply a CNN to diagnose the mole images.
-- Be able to preprocess data for computer vision and deploy an app that could predict whether the image detected/loaded is cancerous or benign
+- Be able to preprocess data for computer vision and deploy an app that could predict whether the image detected/loaded is for a cancerous or benign mole
 
 # Installation
 
