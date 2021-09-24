@@ -43,7 +43,6 @@ python app.py
 | mole_detection.py         | Main python code|
 | mole_model.py         | Python code with Neural network model|
 | mole_preprocessing.py        | Python code for visuals (dataset and results)|
-
 | visuals            | Folder including the plots presented on the Readme |
 
 
