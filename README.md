@@ -73,8 +73,8 @@ $ python app.py
 | mole_model.py         | Python code with Neural network model|
 | mole_preprocessing.py        | Python code for visuals (dataset and results)|
 | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
-| NoCanApp           | https://github.com/mdifils/cancer-detector|
-| NoCanApp Presentation           | Powerpoint presentation 
+| NoCan App           | https://github.com/mdifils/cancer-detector|
+| NoCan App Presentation           | Powerpoint presentation 
 
 # The Dataset
 
