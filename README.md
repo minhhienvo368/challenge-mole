@@ -6,15 +6,15 @@
 - There are three major types of skin cancer: (1) basal cell carcinoma (the most common), (2) squamous cell carcinoma (the second most common) and (3) melanoma
 - The images used for this CNN excercise cover two cancerous types;bcc and mel,together with another 5 benign types; Akiec,Bkl,Df,Nv,and Vasc
 
- | Abbreviation          | Full name                              |
- |-----------------------|----------------------------------------|
- |Bcc | Basal cell carcinoma |
- |Mel| Melanoma |
- |Akiec| Actinic keratoses and intraepithelial carcinoma | 
- |Bkl | Benign lesions of the keratosis |
- |Df | Dermatofibroma |
- |Nv | Melanocytic nevi|
- |Vasc| Vascular lesions |
+    | Abbreviation          | Full name                              |
+    |-----------------------|----------------------------------------|
+    |Bcc | Basal cell carcinoma |
+    |Mel| Melanoma |
+    |Akiec| Actinic keratoses and intraepithelial carcinoma | 
+    |Bkl | Benign lesions of the keratosis |
+    |Df | Dermatofibroma |
+    |Nv | Melanocytic nevi|
+    |Vasc| Vascular lesions |
 
 ## Mission objectives
 
