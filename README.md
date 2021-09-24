@@ -50,7 +50,7 @@ $ python app.py
 * sklearn
 * tensorflow.keras
 
-# Usage
+# Usage and links
 | File                | Description                                                    |
 |---------------------|----------------------------------------------------------------|
 | mole_detection.py         | Main python code|
