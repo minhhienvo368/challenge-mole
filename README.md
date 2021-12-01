@@ -25,6 +25,7 @@
 
 ### Website
 https://melanomia-detection.herokuapp.com/
+https://share.streamlit.io/minhhienvo368/cancer-detector/main/mole_detection.py
 
 ## Visuals:  
 ![Snapshot of the App](https://user-images.githubusercontent.com/84380899/134656153-df62d463-dcf0-4d06-a6bc-c3ac3ea3d78c.png)
@@ -71,8 +72,7 @@ $ python app.py
    | mole_detection.py         | Main python code|
    | mole_model.py         | Python code with Neural network model|
    | mole_preprocessing.py        | Python code for visuals (dataset and results)|
-   | visuals            | Folder including the plots presented on the Readme |https://github.com/mdifils/cancer-detector
-   | NoCan App           | https://github.com/mdifils/cancer-detector|
+   | visuals            | Folder including the plots presented on the Readme |https://github.com/minhhienvo368/cancer-detector
    | NoCan App Presentation           | Powerpoint presentation: https://docs.google.com/presentation/d/1IPsoEJlo0RAcnG8BPl25Rd-0FjspsNQpU9mjD7WalmM/edit#slide=id.g1f87997393_0_864 
 
 ## The Dataset
